@@ -1,6 +1,3 @@
-Sure, here is the documentation for your landing page formatted in a Word document style:
-
----
 
 ## Frontend Documentation for Landing Page
 
@@ -395,12 +392,9 @@ npm install
 #### 3. Start the Development Server
 
 ```bash
-npm start
+npm run dev
 ```
 
-#### 4. Open in Browser
-
-Open your browser and go to `http://localhost:3000` to view the landing page.
 
 ### Customization
 
@@ -413,6 +407,3 @@ Open your browser and go to `http://localhost:3000` to view the landing page.
 - Add animations for a more dynamic user experience.
 - Implement a contact form with validation.
 
----
-
-I will save
