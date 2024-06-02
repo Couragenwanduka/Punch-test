@@ -233,3 +233,54 @@
 }
 }
 
+/* Media Queries */
+@media (min-width: 600px) and (max-width: 1024px) {
+    /* Styles for tablet */
+    .testimonial-header {
+        font-size: 36px;
+    }
+
+    .review-header {
+        font-size: 32px;
+    }
+
+    .process-intro h1 {
+        font-size: 32px;
+    }
+
+    .step-title {
+        font-size: 18px;
+    }
+    
+}
+
+@media (max-width: 599px) {
+    /* Styles for mobile */
+    .testimonial-header {
+        font-size: 28px;
+    }
+
+    .review-header {
+        font-size: 24px;
+    }
+
+    .quotes {
+        width: 30px;
+        height: 30px;
+    }
+
+    .process-intro h1 {
+        font-size: 24px;
+    }
+
+    .step-title {
+        font-size: 14px;
+    }
+    .about-container{
+        display: flex;
+        flex-direction: column;
+    }
+    .review{
+        margin-left: -29%;
+    }
+}
