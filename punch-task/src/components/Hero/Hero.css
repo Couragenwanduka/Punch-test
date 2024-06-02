@@ -1,0 +1,232 @@
+@import url('https://fonts.cdnfonts.com/css/switzer');
+
+                
+.Hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+}
+.first-text, .second-text, .text-box, .table-div {                                 
+    margin: 10px 0;
+}
+.first-text{
+    font-family: 'Switzer', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    line-height:50px;
+    align-items: center;
+    overflow-wrap: break-word;
+    inline-size: 500px;
+    
+}
+.second-text{
+    overflow-wrap: break-word;
+    font-family: 'Switzer', sans-serif;
+    font-weight: 300;
+    inline-size: 450px;
+    margin-top: -40px;
+    color: #202229;
+}
+.text-box {
+    position: relative;
+    display: inline-block;
+    width: 30%;
+    /* height: 50px; */
+}
+.text-box input {
+    width: 100%;
+    padding: 10px 60px 10px 10px;
+    box-sizing: border-box;
+    position: relative;
+    z-index: 1;
+    background: none;
+    border: none;
+    border: 1px solid gray;
+    border-radius: 10px;
+}
+.text-box .placeholder {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color: black; /* First color */
+    font-size: 16px;
+    font-weight: 30px;
+    pointer-events: none;
+    white-space: nowrap;
+}
+.text-box .placeholder span {
+    color: #888; /* Second color */
+}
+.text-box button {
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100%;
+    background: none;
+    border: none;
+    cursor: pointer;
+    z-index: 2;
+    width: 50px;
+
+}
+.text-box button img {
+    height: 100%;
+    width: 100%; 
+    object-fit: contain; 
+    
+}
+
+.table-div{
+    background-color: #F8F8F8;
+    margin-top: 30px;
+    width: 60%;
+    border-radius: 20px;
+}
+
+table {
+    width: 100%;
+    max-width: 600px;
+    border-collapse: collapse;
+    margin: 40px 0;
+    font-size: 15px;
+    text-align: left;
+    color: gray;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 12px;
+    padding-left: 50px;
+    border-bottom: 1px solid #ddd;
+    border: none;
+}
+tr:hover {
+    background-color: #f1f1f1;
+}
+th {
+    background-color: #525AA0;
+    color: white;
+}
+.table-first {
+    display: flex;
+    padding: 10px 5px 10px 5px;
+    margin-left: 200px;
+    font-size: 18px;
+}
+
+.divit {
+    margin-top: 20px;
+    margin-right: 5px;
+}
+
+.it{ 
+    background-color: #f3f4f3fc;
+    padding: 20px 10px 20px;
+}
+.design{
+    background-color: #f3f4f3fc;
+    padding: 20px 10px 20px;
+}
+.it:hover{
+    background-color: #C7F4C2;
+    border-radius:  10px;
+}
+.design:hover{
+    background-color: #C7F4C2; 
+    border-radius: 10px;
+}
+
+.slanted-line{
+    width: 50%;
+    height: 1px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.slantimg{
+    margin-top: -20px;
+  width: 200%;
+}
+.slant::before{
+    content: "";
+   bottom:-420px;
+    height: 70px;
+    background-color: white;
+    position: absolute;
+    right: 0;
+    left: 0;
+   transform: skewY(-2deg);
+}
+
+/* Media queries for tablets */
+@media (max-width: 768px) {
+    .first-text {
+        font-size: 18px;
+        inline-size: 100%;
+    }
+    .second-text {
+        font-size: 16px;
+        inline-size: 100%;
+        margin-top: -30px;
+    }
+    .text-box {
+        width: 60%;
+    }
+    .table-div {
+        width: 80%;
+    }
+    .table-first {
+        margin-left: 50px;
+        font-size: 16px;
+    }
+    th, td {
+        padding: 10px;
+    }
+    .text-box input {
+        padding: 8px 50px 8px 8px;
+    }
+    .text-box .placeholder {
+        top: 8px;
+        font-size: 14px;
+    }
+}
+
+/* Media queries for mobile */
+@media (max-width: 480px) {
+    .first-text {
+        font-size: 16px;
+        line-height: 40px;
+        inline-size: 100%;
+    }
+    .second-text {
+        font-size: 14px;
+        inline-size: 100%;
+        margin-top: -20px;
+    }
+    .text-box {
+        width: 80%;
+        margin: 10px 0;
+    }
+    .text-box input {
+        padding: 8px 40px 8px 8px;
+    }
+    .text-box .placeholder {
+        top: 8px;
+        font-size: 14px;
+    }
+    .table-div {
+        width: 100%;
+        margin-top: 20px;
+    }
+    table {
+        font-size: 14px;
+    }
+    th, td {
+        padding: 8px;
+    }
+    .table-first {
+        margin-left: 10px;
+        font-size: 14px;
+    }
+}

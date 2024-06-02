@@ -1,0 +1,234 @@
+.benefit-container{
+    margin-top: 100px;
+    background-color: #EDEFFF;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+@import url('https://fonts.cdnfonts.com/css/switzer');
+.intro{
+    margin-top: 100px;
+    font-size: 30px;
+    font-family: 'Switzer', sans-serif;
+    font-weight: 600;
+    margin-left: 30%;
+    overflow-wrap: break-word;
+    inline-size: 550px;
+}
+.intro p span{
+    margin-left: 50px;
+}
+.category{
+    display: flex;
+    justify-content: space-between;
+}
+.category-info {
+margin-left: 30px;
+}
+.findDev{
+    overflow-wrap: break-word;
+    inline-size: 600px;
+    font-size: 20px;
+    font-family: 'Switzer', sans-serif;
+}
+.info-details{
+    display: flex;
+    gap:60px;
+}
+.info-details p, .info{
+    font-size: 15px;
+    color: gray;
+    font-weight: 300;
+    font-family: 'Switzer', sans-serif;
+}
+.icon-info{
+    width: 20px;
+    height: 20px;
+}
+.skill-container {
+    margin-right: 30px;
+    background-color: white;
+    padding: 20px; 
+    border-radius: 10px; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+.skill-container2{
+    margin-right: 30px;
+    background-color: white;
+    padding: 40px; 
+    border-radius: 10px; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-top: 30px;
+}
+
+.skills {
+    display: flex;
+    flex-wrap: wrap; 
+}
+
+.skill {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    margin-right: 20px;
+    margin-bottom: 20px;
+    text-align: center; 
+}
+
+.icon {
+    width: 20px; 
+    height: 20px;
+}
+
+.imageBackground {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    background-color: #F6F6F6;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px; 
+}
+.skill span{
+    font-size: 15px;
+    color: black;
+    font-weight: 500;
+    font-family: 'Switzer', sans-serif;
+}
+.explore-more{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+.to-explore span{
+    font-weight: 800;
+}
+.imageDiv {
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    width: fit-content;
+    border: none;
+}
+
+.imageDiv img {
+    width: 30px; 
+    height: auto;
+    margin-right: 10px; 
+}
+.exploreImage{
+    display: flex;
+    
+}
+.slant2::before{
+    content: "";
+   bottom:-235%;
+    height: 50px;
+    background-color: #EDEFFF;
+    position: absolute;
+    right: 0;
+    left: 0;
+   transform: skewY(-1deg);
+}
+/* Media queries for tablets */
+@media (max-width: 768px) {
+    .intro {
+        margin-left: 20%;
+        inline-size: 80%;
+        font-size: 24px;
+    }
+    
+    .categories {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .category {
+        max-width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .skills {
+        justify-content: center;
+    }
+
+    .skill {
+        width: 45%;
+    }
+
+    .skill-container, .skill-container2 {
+        width: 90%;
+        margin: 10px 0;
+    }
+    .slant2::before{
+        display: none;
+    }
+}
+
+/* Media queries for mobile */
+@media (max-width: 480px) {
+    .intro {
+        margin-left: 10%;
+        inline-size: 80%;
+        font-size: 18px;
+    }
+
+    .intro p span {
+        display: block;
+        margin-left: 0;
+        margin-top: 10px;
+    }
+
+    .findDev {
+        font-size: 16px;
+        inline-size: 90%;
+    }
+
+    .info-details {
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    .skill {
+        width: 100%;
+    }
+
+    .skill-container, .skill-container2 {
+        width: 95%;
+        margin: 10px 0;
+        padding: 20px;
+    }
+
+    .exploreImage {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .imageDiv img {
+        width: 40px;
+        height: 40px;
+    }
+
+    .to-explore {
+        font-size: 1em;
+    }
+
+    .explore-more {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .to-explore span {
+        font-size: 1.2em;
+    }
+    .slant2::before{
+        display: none;
+    }
+}
