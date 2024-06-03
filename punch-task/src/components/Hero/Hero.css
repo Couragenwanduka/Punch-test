@@ -229,4 +229,14 @@ th {
         margin-left: 10px;
         font-size: 14px;
     }
+    .slant::before{
+        content: "";
+   bottom:-700px;
+    height: 60px;
+    /* background-color: blue; */
+    position: absolute;
+    right: 0;
+    left: 0;
+   transform: skewY(-2deg);
+    }
 }
