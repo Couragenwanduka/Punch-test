@@ -11,7 +11,7 @@ const Hero=()=>{
 <>
 <div className="Hero">
                 <div className="first-text">
-                    <h1>Finding the right fit <span><img src="public\assets\zwilt-tba-1-01 2.png"/></span> has never been easier.</h1>
+                    <h1>Finding the right fit <span><img src="assets\zwilt-tba-1-01 2.png"/></span> has never been easier.</h1>
                 </div>
                 <div className="second-text">
                     <p>
