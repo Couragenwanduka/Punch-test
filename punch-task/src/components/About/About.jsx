@@ -7,21 +7,21 @@ const About = () => {
             <div className="about-container">
                 <div className="testimonial">
                     <div className="testimonial-header">
-                        <p>How it worked for Jason <span className="icon-container"><img alt="icon" src='src\assets\image 6.png' className='face-Icon'/></span> at</p>
-                        <img className="company-logo" alt="company logo" src='src\assets\Group.png'/>
+                        <p>How it worked for Jason <span className="icon-container"><img alt="icon" src='public\assets\image 6.png' className='face-Icon'/></span> at</p>
+                        <img className="company-logo" alt="company logo" src='public\assets\Group.png'/>
                     </div>
                     <div className="testimonial-content">
                         <p>Zwilt enabled us to deliver on time and they’ve been heavy hitters in our corner since.</p>
                     </div>
                     <div className="testimonial-icons">
-                        <span className="icon"><img alt="icon" src='src\assets\Vector.png'/></span>
-                        <span className="icon"><img alt="icon" src='src\assets\Vector.png'/></span>
+                        <span className="icon"><img alt="icon" src='public\assets\Vector.png'/></span>
+                        <span className="icon"><img alt="icon" src='public\assets\Vector.png'/></span>
                     </div>
                 </div>
                 <div className="review">
-                    <div><img src='src\assets\“.png' className='qoutes'/></div>
+                    <div><img src='public\assets\“.png' className='qoutes'/></div>
                     <div className="review-header">
-                        <span className="profile-pic"><img alt="profile" src='src\assets\Frame 626655.png' className='hover'/><img className="for-hover" alt="company logo" src='src\assets\Group.png'/> </span>
+                        <span className="profile-pic"><img alt="profile" src='public\assets\Frame 626655.png' className='hover'/><img className="for-hover" alt="company logo" src='public\assets\Group.png'/> </span>
                        <span>
                          <p className="name">Jason Makki</p>
                         <p className="title">Engineer at GROOVE</p>
@@ -40,26 +40,26 @@ const About = () => {
                         </div>
                         <div className="process-steps">
                             <div className="process-step">
-                                <span className="step-icon"><img src='src/assets/play.png' alt="Step 1 Icon"/></span>
+                                <span className="step-icon"><img src='public/assets/play.png' alt="Step 1 Icon"/></span>
                                 <span className="step-title">Step 1: Resume Screening</span>
                             </div>
                             <div className="process-step2">
                                 <span>
-                                        <span className="step-icon2"><img src='src\assets\play white.png' alt="Step 2 Icon"/></span>
+                                        <span className="step-icon2"><img src='public\assets\play white.png' alt="Step 2 Icon"/></span>
                                         <span className="step-title">Step 2: Video Interview</span>
                                 </span>
                                 <span className="step-description">Candidates are assessed through skill based questions in a virtual setting. Allowing you to gauge personality and cultural fit.</span>
                             </div>
                             <div className="process-step">
-                                <span className="step-icon"><img src='src/assets/play.png' alt="Step 3 Icon"/></span>
+                                <span className="step-icon"><img src='public/assets/play.png' alt="Step 3 Icon"/></span>
                                 <span className="step-title">Step 3: Technical Evaluation</span>
                             </div>
                             <div className="process-step">
-                                <span className="step-icon"><img src='src/assets/play.png' alt="Step 4 Icon"/></span>
+                                <span className="step-icon"><img src='public/assets/play.png' alt="Step 4 Icon"/></span>
                                 <span className="step-title">Step 4: Application Review</span>
                             </div>
                             <div className="process-step">
-                                <span className="step-icon"><img src='src/assets/play.png' alt="Step 5 Icon"/></span>
+                                <span className="step-icon"><img src='public/assets/play.png' alt="Step 5 Icon"/></span>
                                 <span className="step-title">Step 5: Lets get to work</span>
                             </div>
                         </div>
@@ -67,7 +67,7 @@ const About = () => {
 
                     <div className="journey-start">
                         {/* <h1>Start your Journey today</h1> */}
-                        <img src='src/assets/Group 626337.png' alt="Start your Journey"/>
+                        <img src='public/assets/Group 626337.png' alt="Start your Journey"/>
                     </div>
                     <div className='backgound'>
                     <Slideshow />

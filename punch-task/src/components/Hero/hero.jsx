@@ -11,7 +11,7 @@ const Hero=()=>{
 <>
 <div className="Hero">
                 <div className="first-text">
-                    <h1>Finding the right fit <span><img src="src\assets\zwilt-tba-1-01 2.png"/></span> has never been easier.</h1>
+                    <h1>Finding the right fit <span><img src="public\assets\zwilt-tba-1-01 2.png"/></span> has never been easier.</h1>
                 </div>
                 <div className="second-text">
                     <p>
@@ -31,7 +31,7 @@ const Hero=()=>{
                             Looking for <span>design</span>
                             </div>
                         )}
-                    <button><img src="src\assets\Frame 626624.png"/></button>
+                    <button><img src="public\assets\Frame 626624.png"/></button>
                 </div>
                 <div className="table-div">
 
@@ -61,7 +61,7 @@ const Hero=()=>{
                 </div>
          </div>
          <div className="slanted-line">
-            <img src="src\assets\Union.png" className="slantimg"/>
+            <img src="public\assets\Union.png" className="slantimg"/>
          </div>
  <div className='slant'></div>
 

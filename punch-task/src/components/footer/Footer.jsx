@@ -7,13 +7,13 @@ const Footer = () => {
                 <div className="header-content">
                     <h1>Need a job done, and done well? Get started</h1>
                     <button className="start-button">
-                        <img src="src\assets\Frame 626624 (1).png" alt="Start Icon" />
+                        <img src="public\assets\Frame 626624 (1).png" alt="Start Icon" />
                     </button>
                 </div>
             </div>
             <div className="footer">
                 <div className="footer-left">
-                    <img src="src\assets\Group 625177.png" alt="Zwilt Logo" className="zwilt-logo" />
+                    <img src="public\assets\Group 625177.png" alt="Zwilt Logo" className="zwilt-logo" />
                     <p>We take complex hiring processes - and simplify them. Connecting you to the world’s highly qualified talent pool.</p>
                     <div className="footer-buttons">
                         <button className="hire-now">Hire now</button>
