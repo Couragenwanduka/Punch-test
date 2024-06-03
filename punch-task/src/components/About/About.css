@@ -255,6 +255,9 @@
     .step-title {
         font-size: 18px;
     }
+    .qoute{
+        display: none;
+    }
     
 }
 
@@ -286,5 +289,8 @@
     }
     .review{
         margin-left: -29%;
+    }
+    .qoute{
+        display: none;
     }
 }
