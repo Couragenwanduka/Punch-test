@@ -97,6 +97,8 @@
 .highlighted .question-text {
     font-weight: bold;
 }
-
+.slant5::before{
+    display: none;
+}
 
 }

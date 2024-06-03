@@ -237,3 +237,31 @@ margin-top: -40px;
     margin-top: -200%;
     margin-left: 70%;
 }
+
+@media (max-width: 599px) {
+    /* For mobile phones: */
+ .flex{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px; 
+ 
+ }  
+ .slide1-header, .slide2-header, .slide3-header{
+    margin-left: -40px;
+ }
+ body{
+    overflow-x: hidden;
+ }
+
+ 
+}
+@media (min-width: 600px) and (max-width: 1024px){
+    .flex{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 30px; 
+     
+     }  
+}
