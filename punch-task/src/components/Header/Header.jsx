@@ -4,7 +4,7 @@ const Header=()=>{
     <>
         <div className="first-Container">
             <div className="main-container">
-                <div><img src="public\assets\logo.png" className="logo"/></div>
+                <div><img src="assets\logo.png" className="logo"/></div>
                 <nav>
                     <ul className="nav">
                         <li><a href="#">Find Work</a></li>

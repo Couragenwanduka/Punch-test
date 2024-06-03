@@ -31,7 +31,7 @@ const Hero=()=>{
                             Looking for <span>design</span>
                             </div>
                         )}
-                    <button><img src="public\assets\Frame 626624.png"/></button>
+                    <button><img src="assets\Frame 626624.png"/></button>
                 </div>
                 <div className="table-div">
 
@@ -61,7 +61,7 @@ const Hero=()=>{
                 </div>
          </div>
          <div className="slanted-line">
-            <img src="public\assets\Union.png" className="slantimg"/>
+            <img src="assets\Union.png" className="slantimg"/>
          </div>
  <div className='slant'></div>
 

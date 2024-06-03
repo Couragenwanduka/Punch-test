@@ -31,10 +31,10 @@ const Slideshow = () => {
                 <p className="slide1-content-text">- we pick the best for you to select</p>
                 <p className="slide1-content-text">- Thousands of vetted candidates in dozens of categories</p>
                 <p className="slide1-content-text">- Risk-free resource swapping for the best fit</p>
-                <img src="public\assets\Component 1064.png" alt="Slide 1" className="slide1-image1" />
+                <img src="assets\Component 1064.png" alt="Slide 1" className="slide1-image1" />
             </div>
             <div className="slide1-content-right">
-                <img src="public/assets/Group 626340.png" alt="Slide 1" className="slide1-image2" />
+                <img src="assets/Group 626340.png" alt="Slide 1" className="slide1-image2" />
             </div>
         </div>
     </div>
@@ -52,12 +52,12 @@ const Slideshow = () => {
                             <p className="slide2-content-text">- Easy and transparent one to one chat with candidates</p>
                             <p className="slide2-content-text">- Simple and convenient payment methods</p>
                             <p className="slide2-content-text">- Review past ratings</p>
-                            <img src="public\assets\Component 1064.png" alt="Slide 1" className="slide1-image1" />
+                            <img src="assets\Component 1064.png" alt="Slide 1" className="slide1-image1" />
                         </div>
                         <div className="slide2-content-right">
-                            <img src="public/assets/Frame 626665.png" alt="Slide 2" className="slide2-image2" />
-                            <img src="public/assets/Group 626502.png" alt="Slide 2" className="slide2-image3" />
-                            <img src="public/assets/Group 626506.png" alt="Slide 2" className="slide2-image4" />
+                            <img src="assets/Frame 626665.png" alt="Slide 2" className="slide2-image2" />
+                            <img src="assets/Group 626502.png" alt="Slide 2" className="slide2-image3" />
+                            <img src="assets/Group 626506.png" alt="Slide 2" className="slide2-image4" />
                         </div>
                     </div>
                     </div>
@@ -74,13 +74,13 @@ const Slideshow = () => {
                 <p className="slide3-content-text">- Track your staff activity down to every minute with screenshots.</p>
                 <p className="slide3-content-text">- Comprehensive timesheet data to process payment</p>
                 <p className="slide3-content-text">- Create projects to organize and assign tasks more effectively</p>
-                <img src="public\assets\Component 1064.png" alt="Slide 1" className="slide1-image1" />
+                <img src="assets\Component 1064.png" alt="Slide 1" className="slide1-image1" />
             </div>
             <div className="slide3-content-right">
-                <img src="public/assets/Activity bar.png" alt="Slide 3" className="slide3-image2" />
-                <img src="public/assets/Group 626504.png" alt="Slide 3" className="slide3-image3" />
-                <img src="public/assets/Activity bar-1.png" alt="Slide 3" className="slide3-image4" />
-                <img src="public/assets/Group 626506.png" alt="Slide 3" className="slide3-image5" />
+                <img src="assets/Activity bar.png" alt="Slide 3" className="slide3-image2" />
+                <img src="assets/Group 626504.png" alt="Slide 3" className="slide3-image3" />
+                <img src="assets/Activity bar-1.png" alt="Slide 3" className="slide3-image4" />
+                <img src="assets/Group 626506.png" alt="Slide 3" className="slide3-image5" />
             </div>
         </div>
     </div>
