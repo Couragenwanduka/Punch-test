@@ -117,10 +117,9 @@
 }
 .slant3::before{
     content: "";
-   bottom:-1011%;
+   bottom:-950%;
     height: 50px;
     width: 100%;
-    /* margin-left: 250px; */
     background-color: #1c1c1e;
     position: absolute;
     right: 0;
@@ -129,7 +128,7 @@
 }
 .slant4::before{
     content: "";
-    bottom:-1058%;
+    bottom:-995%;
      height: 50px;
      width: 100%;
      /* margin-left: 250px; */

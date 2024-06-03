@@ -32,6 +32,7 @@ const About = () => {
                     </div>
                 </div>
             </div>
+            <div className='slant-about'></div>
             <div className="process-container">
                         <div className="process-intro">
                             <h1>How we ensure you’re in good hands.</h1>

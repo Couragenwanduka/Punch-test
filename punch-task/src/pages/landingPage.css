@@ -61,10 +61,9 @@
 }
 .slant5::before{
     content: "";
-    bottom:-826.8%;
-     height: 58px;
+    bottom:-775%;
+     height: 60px;
      width: 100%;
-     /* margin-left: 250px; */
      background-color: #f8f8f8;
      position: absolute;
      right: 0;

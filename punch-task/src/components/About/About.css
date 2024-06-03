@@ -97,6 +97,7 @@
 }
 
 .process-container {
+    margin-top: 50px;
     padding: 20px;
     background-color: #FFFFFF; 
 }
@@ -219,18 +220,21 @@
 }
 .backgound{
     background-color: #EDEFFF;
+    height: 20%;
+    margin-top: 20px;
+    width: 94%;
+    margin-left: 70px;
+    overflow: hidden;
 }
-.for-hover{
-    display: none;
-}
-.icon-container:hover{
-.hover{
-    display: none;
-}
-
-.for-hover{
-    display: contents;
-}
+.slant-about::before{
+    content: "";
+    bottom:-330%;
+     height: 50px;
+     background-color: black;
+     position: absolute;
+     right: 0;
+     left: 0;
+    transform: skewY(-1.5deg);
 }
 
 /* Media Queries */

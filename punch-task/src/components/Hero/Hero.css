@@ -34,7 +34,7 @@
     position: relative;
     display: inline-block;
     width: 30%;
-    /* height: 50px; */
+   
 }
 .text-box input {
     width: 100%;
@@ -51,14 +51,14 @@
     position: absolute;
     top: 10px;
     left: 10px;
-    color: black; /* First color */
+    color: black; 
     font-size: 16px;
     font-weight: 30px;
     pointer-events: none;
     white-space: nowrap;
 }
 .text-box .placeholder span {
-    color: #888; /* Second color */
+    color: #888; 
 }
 .text-box button {
     position: absolute;
@@ -150,8 +150,8 @@ th {
 }
 .slant::before{
     content: "";
-   bottom:-420px;
-    height: 70px;
+   bottom:-414px;
+    height: 72px;
     background-color: white;
     position: absolute;
     right: 0;
